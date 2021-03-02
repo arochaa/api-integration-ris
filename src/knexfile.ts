@@ -16,6 +16,7 @@ export default {
       idleTimeoutMillis: env.IDLE_DB,
     },
     options: {
+      encrypt: true,
       debug: env.DEBUG_DB,
     },
   },
