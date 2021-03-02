@@ -1,0 +1,15 @@
+{
+  "name": "api-rest-ris",
+  "dockerComposeFile": ["./docker-compose.yml"],
+  "service": "app",
+  "shutdownAction": "none",
+  "extensions": [
+    "kisstkondoros.vscode-codemetrics",
+    "mutantdino.resourcemonitor",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint"
+  ],
+  // Open the sub-folder with the source code
+  "workspaceFolder": "/workspace/app"
+}
